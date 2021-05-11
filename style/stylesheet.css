@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Kodchasan&display=swap');
+
 body{
   background-color: #5DBB63;
+  box-sizing: border-box;
 }
 
 a {
   background-color: #ccffcc;
   border-style: groove;
   border-color: #ffccff;
-  font-family: monospace;
+  font-family:'KoHo', sans-serif;
 }
 
 a:hover{
@@ -18,11 +21,11 @@ img{
   border-style: double;
   border-width: 5px;
   border-color: green;
-  height: 222px
+  width: 20rem;
 }
 
 img:hover{
-  height: 444px;
+  width: 25rem;
 }
 
 h3{
@@ -32,38 +35,58 @@ h3{
   border-top-style: dotted;
   border-top-width: 6px;
   border-top-color: #ffccff;
-  font-family: monospace;
+  font-family: 'KoHo', sans-serif;
   text-align: center;
 }
 
 h2{
   text-align: center;
-  font-family: monospace;
+  font-family: 'KoHo', sans-serif;
 }
 
 h1{
   text-align: center;
-  font-family: monospace;
+  font-family: 'KoHo', sans-serif;
   border-bottom-style: dotted;
   border-bottom-width: 10px;
   border-bottom-color: #ffccff;
 }
 
+p{
+  font-family: 'Kodchasan',sans-serif;
+}
+
 ul{
   border-left-style: double;
   border-left-width: 6px;
-  border-left-color: #ffccff
+  border-left-color: #ffccff;
+  font-family: 'Kodchasan', sans-serif;
 }
 
 dl{
   border-left-style: double;
   border-left-width: 6px;
-  border-left-color: #ffccff
+  border-left-color: #ffccff;
+  font-family: 'Kodchasan', sans-serif;
 }
 
 footer{
-  font-family: monospace;
+  font-family: 'KoHo', sans-serif;
   text-align: center;
   border-style: dashed;
   border-color: #ffccff
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.gardenlinks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
