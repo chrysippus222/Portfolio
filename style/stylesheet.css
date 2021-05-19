@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Kodchasan&display=swap');
 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
 body{
   background-color: #5DBB63;
-  box-sizing: border-box;
 }
 
 a {
@@ -24,8 +31,16 @@ img{
   width: 20rem;
 }
 
-img:hover{
-  width: 25rem;
+.pic {
+  border: 10px solid #fff;
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;
 }
 
 h3{
@@ -90,3 +105,25 @@ footer{
   align-items: center;
 
 }
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.roadtrip dt:nth-child(3n+3) {color: orange;}
+
+li::first-letter {  text-decoration: underline;}
