@@ -17,6 +17,7 @@ a {
   border-style: groove;
   border-color: #ffccff;
   font-family:'KoHo', sans-serif;
+  width: 100%;
 }
 
 a:hover{
