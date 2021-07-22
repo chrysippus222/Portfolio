@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Questions</title>
+    <link rel="stylesheet" href="style/stylesheet.css">
+  </head>
+  <body>
+    <h1>Compatablity Quiz aka Friendship application</h1>
+
+   <form method="GET">
+
+      <label> What is your name?
+      <input type="text" name="friendsname">
+      </label>
+      <label>How old are you?
+      <input type="number" name="friendsage">
+      </label>
+      <label>What is your astrological sign?
+      <select name="starsign">
+        <option value="">Select Option</option>
+        <option value="earth">Taurus, Virgo, Capricorn </option>
+        <option value="fire"> Aries, Leo, Sagittarius</option>
+        <option value="water"> Pisces, Cancer, Scorpio </option>
+        <option value="air">Aquarius, Gemini, Libra</option>
+      </select>
+      </label>
+
+      <fieldset class="checkbox">
+        <legend>Do you like these movies?</legend>
+        <label>
+        <input type="checkbox" name="movie" value="scooby">
+        Scooby Doo 2: Monsters Unleashed
+        </label>
+        <label>
+        <input type="checkbox" name="movie" value="mamma">
+         Mamma Mia
+        </label>
+        <label>
+        <input type="checkbox" name="movie" value="clue">
+        Clue
+        </label>
+        <label>
+        <input type="checkbox" name="movie" value="mids">
+        Midsommar
+        </label>
+      </fieldset>
+
+      <input type="submit" value="No take backs">
+
+    </form>
+
+  </body>
+</html>

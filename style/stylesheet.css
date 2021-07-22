@@ -127,3 +127,29 @@ footer{
 .roadtrip dt:nth-child(3n+3) {color: orange;}
 
 li::first-letter {  text-decoration: underline;}
+
+/*Questions*/
+button,input,select,textarea{
+  font-family: KoHo;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+fieldset .checkbox{
+  border: thick solid black;
+}
+
+input{
+  border-radius: 15px;
+  border-color: #333333;
+
+}
+input[type=checkbox]{
+  display: inline;
+}
+
+input[type=submit]:hover{
+  background-color: pink;
+}
